@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BlazeDemo" >
+	
+	<test name="TicketBookingTest"> 
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.blazedemo.test.HomePageTest" />
+			<class name="com.qa.blazedemo.test.FlightListPageTest" />
+			<class name="com.qa.blazedemo.test.BookTicketPageTest" />
+			<class name="com.qa.blazedemo.test.PurchaseConformationTest" />
+		</classes>
+	</test>
+</suite> 
